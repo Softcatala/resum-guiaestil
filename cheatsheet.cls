@@ -29,6 +29,7 @@
 \RequirePackage{hyperref}
 % Paragraph
 \RequirePackage{parskip}
+\RequirePackage{svg}
 
 %------------------------------------------------------------------------------
 % Colors
@@ -74,7 +75,7 @@
   \begin{tikzpicture}[overlay, remember picture]
     \fill[innoinnored] (current page.north west) rectangle ($(current page.north east)+(0,-14mm)$);
     \node[anchor=north west, text=white, font=\Huge, minimum size=15mm, inner xsep=6mm] at (current page.north west) {\@cheatsheettitle};
-    \node[anchor=north east, minimum size=14mm, inner xsep=6mm] at (current page.north east) {\includegraphics[scale=.090]{innovativeinnovation.png}};
+    \node[anchor=north east, minimum size=14mm, inner xsep=6mm] at (current page.north east) {\includesvg[scale=.090]{sc.svg}};
   \end{tikzpicture}
 }
 
