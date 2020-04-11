@@ -30,6 +30,7 @@
 % Paragraph
 \RequirePackage{parskip}
 \RequirePackage{svg}
+\usepackage[T1]{fontenc}
 
 %------------------------------------------------------------------------------
 % Colors
